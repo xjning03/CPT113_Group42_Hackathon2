@@ -2,7 +2,7 @@
 # Hackathon2
 ## 1. Project Description:
    
-"Unexpected Encounters" is an interactive multiplayer game about relationships and making decisions. Players are involved in various settings in which they encounter the main character, Jackson.
+"Unexpected Encounters" is an interactive multiplayer game about relationships and making decisions. Two players are involved in various settings in which they encounter the main character, Jackson.
 
 In the game, players can select from options (Option A, B or C), each with a score that influences their relationship with Jackson. Players actively create the storyline by navigating their character's journey and changing their relationship with Jackson. Players are encouraged to invest their emotions and thoughts in the game.
 
@@ -21,17 +21,16 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 - Diverse Chapters and Scenes Set in Several Locations
    - Explore a series of diverse chapters and scenes set in several locations. Play the game's interactive storyline as you delve into settings like a basketball court, library, cafe, cinema, and theme park. Each location has different scenes and options for players to shape their relationship with our main character and influence the outcome of the game.
 
-- Multiple Choice-based Gameplay
+- Multiple Choice for Establishing relationships
    - Choose options (A, B, or C) that correspond to your character's behaviours, thoughts, and emotions when making decisions at crucial times.
-
-- Establishing relationships
-   - Use action options to engage with Jackson in order to forge bonds and shape the dynamics of the interactions in the game.
+   - The selected action options able players to engage with Jackson in order to forge bonds and shape the dynamics of the interactions in the game.
 
 - Friendly User Interface
-   - Use an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
+   - Instructions are clearly written.
+   - Utilise an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
      
 - Scability of Game 
-   - The programmer can add or remove places without affecting the general structure of the game by managing scenes with the linked list. This is because the game can efficiently handle more chapters by their preferred locations and scenes. This enables scalability.
+   - The programmer can add or remove chapters without affecting the general structure of the game by managing scenes with the linked list. This is because the game can efficiently handle more chapters by their preferred locations and scenes. This enables scalability.
 
 
 ## 3. Project Specification:
@@ -67,7 +66,8 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 - The total score for each player is the sum of their scores after each chapter, considering the choices made in each scene.
 
 ### 6. Formula
-- Total score = Total score + Score obtained in each scene.
+- Total score of player 1 = Total score of player 1 + Score obtained of player 1 in each scene.
+- Total score of player 2 = Total score of player 2 + Score obtained of player 2 in each scene.
 
 
 ## 4. Object-oriented Concept:
@@ -91,12 +91,12 @@ In the game, there are 9 classes that utilize object-oriented concepts:
 
 9. ThemePark (Composition of class Place): This class represents the theme park location which is also Chapter 5 in the game. It prints out the setting and scenes in the theme park and captures the players' actions.
 
-These classes utilize concepts such as composition, inheritance, and encapsulation to organize and manage the game's functionality and data effectively.
+These classes utilize concepts such as **composition**, **inheritance**, and **encapsulation** to organize and manage the game's functionality and data effectively.
 
 
 ## 5. Data structures(Linked-list):
 
-In our game, we employ a linked list data structure through the implementation of a dynamic linked list in the "HistoryList" class. This implementation allows the linked list to expand and shrink during program execution. Each node in the linked list consists of five string data elements: placeName, scene1, scene2, action1, and action2. Additionally, each node contains a pointer to the next node in the list. The class includes a default constructor that initializes the head of the linked list.
+In our game, we employ a **linked list** data structure through the implementation of a dynamic linked list in the "HistoryList" class. This implementation allows the linked list to expand and shrink during program execution. Each node in the linked list consists of five string data elements: placeName, scene1, scene2, action1, and action2. Additionally, each node contains a pointer to the next node in the list. The class includes a default constructor that initializes the head of the linked list.
 
 To manipulate the linked list, there are four member functions available:
 
@@ -111,7 +111,7 @@ To manipulate the linked list, there are four member functions available:
 These member functions allow for the dynamic management of the linked list, enabling the addition of new nodes for each player and the ability to write the linked list's contents to respective files for historical data storage.
 
 
-## 6. How the Game Play
+## 6. How the Game Play & Screenshot
 1. Screenshot 1
 - First time user.
 - The absence of a history file is indicated by the message "The file is not open properly."
