@@ -91,7 +91,7 @@ In the game, there are 9 classes that utilize object-oriented concepts:
 
 9. ThemePark (Composition of class Place): This class represents the theme park location which is also Chapter 5 in the game. It prints out the setting and scenes in the theme park and captures the players' actions.
 
-These classes utilize concepts such as **composition**, **inheritance**, and **encapsulation** to organize and manage the game's functionality and data effectively.
+These classes utilize concepts such as **composition**, **inheritance**, and **encapsulation** to organize and manage the game's functionality and data effectively. Encapsulating all member variables as private limits their access to within their respective classes.
 
 
 ## 5. Data structures(Linked-list):
