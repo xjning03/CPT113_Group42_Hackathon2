@@ -31,7 +31,7 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
    - Use an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
      
 - Scability of Game 
-   - additional locations with scenes could be added in the future to further enhance the game.
+   - additional locations with scenes could be added into linked list to further enhance the game.
 
 
 ## 3. Project Specification:
