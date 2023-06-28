@@ -56,7 +56,7 @@ i. Previously saved game data information which are the players’ options (Opti
 
 ii. Previously saved game data information which are the completed chapters for continuity.
 
-## 2. Process
+### 2. Process
 a. Calculate accumulated marks based on the players' options in each scene.
 
 b. Compare the total marks of the players to determine the strength of their relationship with the main character.
@@ -64,7 +64,7 @@ b. Compare the total marks of the players to determine the strength of their rel
 c. Determine whether players have a stronger, weaker, or the same strength of relationship bond with the main character.
 
 
-## 3.Output
+### 3.Output
 
 a. Display the accumulated marks for each player after each chapter ends.
 
@@ -73,21 +73,21 @@ b. Display the total accumulated marks at the end of the game.
 c. Display whether players have a stronger, weaker, or the same strength of relationship bond with the main character.
 
 
-## 4.Constraints
+### 4.Constraints
 
 a. Players can only choose options A, B, or C in each scene.
 
 b. Players can only choose to continue (Y or y) or quit (N or n) after each chapter.
 
 
-## 5. Assumptions
+### 5. Assumptions
 a. The game consists of 5 places or chapters, with each chapter having 2 scenes.
 
 b. Each option has a different scoring, which can be positive or negative.
 
 c. The total score for each player is the sum of their scores after each chapter, considering the choices made in each scene.
 
-## 6. Formula
+### 6. Formula
 
 a. Total score = Total score + Score obtained in each scene.
 
