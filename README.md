@@ -1,4 +1,4 @@
-# Group42_Hackathon2_UnexpectedEncounters[
+# Group42_Hackathon2_UnexpectedEncounters
 # Hackathon2
 ## 1. Project Description:
    
