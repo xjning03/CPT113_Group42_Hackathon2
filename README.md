@@ -131,7 +131,7 @@ These member functions allow for the dynamic management of the linked list, enab
 3. Screenshot 3
 - Each chapter consists of two scenes.
 - Two player take turn to choose their preferred actions.
-- They have three options to choose from for each scene.
+- They have three options to choose from for each scene ('A', 'B' or 'C')
      
 ![Hackathon3](Hackathon3.png)
 
@@ -164,7 +164,7 @@ These member functions allow for the dynamic management of the linked list, enab
 
 7. Screenshot 7
 - Proceed to Chapter 2.
-- Implement input validation where players are required to reenter their option if it is not within the allowed choices of (A, B, or C).
+- Implement input validation where players are required to reenter their option if it is not within the allowed choices of ('A', 'B', or 'C').
      
 ![Hackathon7](Hackathon7.png)
 
