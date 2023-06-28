@@ -13,7 +13,8 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 
 ## 2. Project Features:
 
-a. Multiple Player Game 
+a. Multiple Player Game
+
 - A two-player game in which each participant independently makes decisions.
 
 b. Saving and loading history capabilities
@@ -44,16 +45,12 @@ f. Friendly User Interface
 ### 1. Input
    
 a. From User:
-
-i. Players choose options (Options A, B, or C) in each scene of the game.
-
-ii. Players choose to continue (Y or y) or quit (N or n) the game after each chapter.
+- Players choose options (Options A, B, or C) in each scene of the game.
+- Players choose to continue (Y or y) or quit (N or n) the game after each chapter.
 
 b. From File:
-
-i. Previously saved game data information which are the players’ options (Options A, B, or C) for each scene
-
-ii. Previously saved game data information which are the completed chapters for continuity.
+- Previously saved game data information which are the players’ options (Options A, B, or C) for each scene
+- Previously saved game data information which are the completed chapters for continuity.
 
 ### 2. Process
 a. Calculate accumulated marks based on the players' options in each scene.
