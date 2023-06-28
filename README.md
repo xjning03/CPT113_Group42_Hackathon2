@@ -1,5 +1,6 @@
 # Group42_Hackathon2_UnexpectedEncounters[
-![Hackathon](https://jia-ning.imgbb.com/?list=images&sort=views_desc&page=1)
+![Hackathon1](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/b79d8e85-5085-46ca-a5eb-50eb15d2f56b)
+
 
 
 
