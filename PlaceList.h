@@ -179,6 +179,7 @@ class PlaceList:public HistoryList , public Place {
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
+			
 			// comparison between player1 scoring and player2 scoring
 			cout << "Player 1 has " << getTotalMark1()<<"%"<< " and " << "Player 2 has " << getTotalMark2() <<"%"<< endl;
 			if (getTotalMark1() > getTotalMark2()){
