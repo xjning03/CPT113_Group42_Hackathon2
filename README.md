@@ -14,7 +14,6 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 ## 2. Project Features:
 
 a. Multiple Player Game 
-
 - A two-player game in which each participant independently makes decisions.
 
 b. Saving and loading history capabilities
@@ -96,36 +95,36 @@ a. Total score = Total score + Score obtained in each scene.
 
 The game consists of  9 classes:
   
-   a. FileInclusion (composition class Place) : read the two files that stores historical data, return number of places that the players has go 
+a. FileInclusion (composition class Place) : read the two files that stores historical data, return number of places that the players has go 
 
-   b. Place: set the place name, scene1, scene2, action1 and action2 by the values that pass from class BasketballCourt, Library, Cafe, Cinema and ThemePark and pass these values to the HistoryList to append the list node.
+b. Place: set the place name, scene1, scene2, action1 and action2 by the values that pass from class BasketballCourt, Library, Cafe, Cinema and ThemePark and pass these values to the HistoryList to append the list node.
 
-   c. PlaceList (inherited from class HistoryList and class Place) : used to link a place to the next place when the players want to continue the game.
+c. PlaceList (inherited from class HistoryList and class Place) : used to link a place to the next place when the players want to continue the game.
 
-   d. HistoryList : implement a linked-list, append a list node when the players go to one place and write the data that is stored in the linked-list into the players’ history file when the game is ended by the players.
+d. HistoryList : implement a linked-list, append a list node when the players go to one place and write the data that is stored in the linked-list into the players’ history file when the game is ended by the players.
 
-   e. BasketballCourt (composition of class Place) : print out the setting and scene in basketball court and get the players’ action
+e. BasketballCourt (composition of class Place) : print out the setting and scene in basketball court and get the players’ action
    
-   f. Library (composition of class Place): print out the setting and scene in library and get the players’ action
+f. Library (composition of class Place): print out the setting and scene in library and get the players’ action
 
-   g. Cafe (composition of class Place): print out the setting and scene in cafe and get the players’ action
+g. Cafe (composition of class Place): print out the setting and scene in cafe and get the players’ action
 
-   h. Cinema (composition of class Place): print out the setting and scene in cinema and get the players’ action
+h. Cinema (composition of class Place): print out the setting and scene in cinema and get the players’ action
 
-   i. ThemePark (composition of class Place): print out the setting and scene in theme park and get the players’ action
+i. ThemePark (composition of class Place): print out the setting and scene in theme park and get the players’ action
 
 
 ## 5. Data structures(Linked-list):
 
 Linked list data structure is used in our game. A dynamic linked-list is implemented jin class ‘HistoryList’ so that it can grow and shrink during the program execution. Each node consists of five string data which are placeName, scene1, scene2, action1 and action2 and a pointer to the next node in the list. A default constructor initialise the head There are 4 member functions to manipulate the linked-list:
 
-   a. ‘appendListNode1’: appends new node to the end of the list for player 1
+a. ‘appendListNode1’: appends new node to the end of the list for player 1
 
-   b. ‘appendListNode2’: appends new node to the end of the list for player 2
+b. ‘appendListNode2’: appends new node to the end of the list for player 2
 
-   c. ‘writeListNode1’: open the file that stores historical data for player1 and write the contents of the linked list into the file
+c. ‘writeListNode1’: open the file that stores historical data for player1 and write the contents of the linked list into the file
 
-   d. ‘writeListNode2’: open the file that stores historical data for player2 and write the contents of the linked list into the file
+d. ‘writeListNode2’: open the file that stores historical data for player2 and write the contents of the linked list into the file
 
 
 ## 6. How the Game Play
