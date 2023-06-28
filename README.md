@@ -28,6 +28,9 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 - Friendly User Interface
    - Instructions are clearly written.
    - Utilise an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
+
+- The Game can be Replay
+   - Players can replay the game from the beginning by reopening the program after each complete game. The history files will be cleared after each complete game, allowing them to start again with a new game session.
      
 - Scability of Game 
    - The programmer can add or remove chapters without affecting the general structure of the game by managing scenes with the linked list. This is because the game can efficiently handle more chapters by their preferred locations and scenes. This enables scalability.
@@ -120,12 +123,10 @@ These member functions allow for the dynamic management of the linked list, enab
 ![Hackathon1](Hackathon1.png)
 
 
-
 2. Screenshot 2
 - After pressing the enter key, the story of Chapter 1 was unveiled.
      
 ![Hackathon2](Hackathon2.png)
-
 
 
 3. Screenshot 3
@@ -136,7 +137,6 @@ These member functions allow for the dynamic management of the linked list, enab
 ![Hackathon3](Hackathon3.png)
 
 
-
 4. Screenshot 4
 - To exit the game, players input 'N' when prompted with the question "Do you want to proceed to the next place? (Y/N)"
 - The score of each player is computed and displayed on the terminal, taking into account their chosen options.
@@ -145,12 +145,10 @@ These member functions allow for the dynamic management of the linked list, enab
 ![Hackathon4](Hackathon4.png)
 
 
-
 5. Screenshot 5
 - The storyline and scores for each player is saved in separate text files: "History1.txt" for player 1 and "History2.txt" for player 2.
      
 ![Hackathon5](Hackathon5.png)
-
 
 
 6. Screenshot 6
@@ -161,13 +159,11 @@ These member functions allow for the dynamic management of the linked list, enab
 ![Hackathon6](Hackathon6.png)
 
 
-
 7. Screenshot 7
 - Proceed to Chapter 2.
 - Implement input validation where players are required to reenter their option if it is not within the allowed choices of ('A', 'B', or 'C').
      
 ![Hackathon7](Hackathon7.png)
-
 
 
 8. Screenshot 8
@@ -178,12 +174,10 @@ These member functions allow for the dynamic management of the linked list, enab
 ![Hackathon8](Hackathon8.png)
 
 
-
 9. Screenshot 9
 - Implement input validation where players are required to reenter their option if it is not within the allowed choices of ('Y' or 'y') to continue the game, or ('N' or 'n') to quit the game.
 
 ![Hackathon9](Hackathon9.png)
-
 
 
 10. Screenshot 10
@@ -194,10 +188,26 @@ These member functions allow for the dynamic management of the linked list, enab
 ![Hackathon10](Hackathon10.png)
 
 
-
 11. Screenshot 11
 - The separate text files, "History1.txt" for player 1 and "History2.txt" for player 2, store the entire progress of the game.
     
 ![Hackathon11](Hackathon11.png)
 
 
+12. Screenshot 12
+- The program is run again which clear the history stored in "History1.txt" and "History2.txt".
+- To replay the game, players need to reopen the program once.
+
+![Hackathon11](Hackathon12.png)
+
+
+13. Screenshot 13
+- The "History1.txt" and "History2.txt" text file is empty now.
+
+![Hackathon11](Hackathon13.png)
+
+
+14. Screenshot 14
+- Players can now replay the game by reopen the program.
+
+![Hackathon11](Hackathon14.png)
