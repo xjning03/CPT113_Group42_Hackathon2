@@ -130,18 +130,18 @@ d. ‘writeListNode2’: open the file that stores historical data for player2 a
 
 ## 6. How the Game Play
 1. Screenshot 1
-   - First time user.
+- First time user.
    - The absence of a history file is indicated by the message "The file is not open properly."
      
 ![Hackathon1](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/d549d385-9d8a-44ec-888b-060e68844b67)
 
 2. Screenshot 2
-   - After hitting the enter key, the story of Chapter 1 was unveiled.
+- After hitting the enter key, the story of Chapter 1 was unveiled.
      
 ![Hackathon2](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/179b1e46-06c7-45d5-98e5-220fc87f6150)
 
 3. Screenshot 3
-   - Each chapter consists of two scenes.
+- Each chapter consists of two scenes.
    - Two player take turn to choose their preferred actions.
    - They have three options to choose from for each scene.
      
