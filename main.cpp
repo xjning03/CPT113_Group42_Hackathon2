@@ -40,7 +40,7 @@ int main(){
 
 	// false means start new game
 	else{
-		cout << "		     ***        ***     " << endl;
+	cout << "		     ***        ***     " << endl;
     	cout << "		   **   **    **   **   " << endl;
     	cout << "		 **       ****       ** " << endl;
     	cout << "		**                    **" << endl;
