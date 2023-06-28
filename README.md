@@ -122,7 +122,7 @@ These member functions allow for the dynamic management of the linked list, enab
 
 
 2. Screenshot 2
-- After hitting the enter key, the story of Chapter 1 was unveiled.
+- After pressing the enter key, the story of Chapter 1 was unveiled.
      
 ![Hackathon2](Hackathon2.png)
 
