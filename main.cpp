@@ -15,11 +15,12 @@ int main(){
 
 	int level;
 	string player1, player2;
+	string play;
 
 	// set the file name that store historical data for player1 and player2
 	p1.setFileName("History1.txt");
 	p2.setFileName("History2.txt");
-
+	
 	// true means got data, continue the game
 	if(p1.readFile() && p2.readFile()){
 		level = p2.getCount(); // p1.getCount() will be same as p2.getCount()
@@ -33,7 +34,18 @@ int main(){
 			break;
 			case 4: list.executePark();	// last place
 			break;
-			default: cout << "Error\n";
+			default:  // the game is finish, so we delete all the history in both text file
+			ofstream file("History1.txt", ofstream::out | ofstream::trunc);
+    			if (file) {
+        			file.close();
+        			cout << "History stored for player 1 in file deleted successfully." << endl;
+    			} 
+			ofstream file2("History2.txt", ofstream::out | ofstream::trunc);
+    			if (file2) {
+        			file2.close();
+        			cout << "History stored for player 2 in file deleted successfully." << endl;
+    			}
+    			cout<<"Reopen the program to replay the game."<<endl; // reopen the program to replay the game
 			break;
 		}
 	}
