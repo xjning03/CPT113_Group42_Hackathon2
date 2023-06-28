@@ -130,7 +130,8 @@ These member functions allow for the dynamic management of the linked list, enab
 - Two player take turn to choose their preferred actions.
 - They have three options to choose from for each scene.
      
-![Hackathon3](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/08f28e3b-0dd7-4236-b4cd-e89b86df01bb)
+![Hackathon3](https://github.com/xjning03/CPT113_Group42_Hackathon2/assets/126644899/94df2928-4889-480b-8af8-cada259e2fd2)
+
 
 
 4. Screenshot 4
