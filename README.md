@@ -25,7 +25,7 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
    - Choose options (A, B, or C) that correspond to your character's behaviours, thoughts, and emotions when making decisions at crucial points in time.
 
 - Establishing relationships
-   - Use action options to engage with Jackson and other characters in order to forge bonds and shape the dynamics of the interactions in the game.
+   - Use action options to engage with Jackson in order to forge bonds and shape the dynamics of the interactions in the game.
 
 - Friendly User Interface
    - Use an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
