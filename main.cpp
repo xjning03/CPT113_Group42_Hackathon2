@@ -51,7 +51,15 @@ int main(){
     	cout << "		       **     **        " << endl;
     	cout << "		         *****          " << endl;
     	cout << endl;
-		cout << "The game is designed for two players."<<endl;
+    	cout << "Before game starts, let's look through the instructions...'";
+		cout << endl<< "Game Instructiion\n";
+		cout << "1. The game is designed for two players.\n"<<
+				"2. Players take turns choosing their actions.\n"<<
+				"3. The game consists of 5 chapters, each containing 2 scenes.\n"<<
+				"4. For each scene, players can choose one option from three available options labeled 'A', 'B', or 'C'.\n"<<
+				"5. Each option has a different scoring system that can affect the relationship between the players and the main character.\n"<<
+				"6. Players can choose to quit the game after each chapter.\n"<<
+				"7. The game history will be stored in files and updated with progress for the next play session.\n"<<endl;
 		cout << "Press enter to start the game!"<<endl;
 		cin.get();
 		// print the setting of the game
