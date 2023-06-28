@@ -44,7 +44,7 @@ int main(){
     	cout << "		   **   **    **   **   " << endl;
     	cout << "		 **       ****       ** " << endl;
     	cout << "		**                    **" << endl;
-   		cout << "		**     Unexpected     **" << endl;
+   	cout << "		**     Unexpected     **" << endl;
     	cout << "		 **    Encounters    **  " << endl;
     	cout << "		   **             **    " << endl;
     	cout << "		     **         **      " << endl;
