@@ -1,4 +1,4 @@
-# Group42_Hackathon2_UnexpectedEncounters
+# CPT113_Group42_Hackathon2
 # Hackathon2
 ## 1. Project Description:
    
@@ -13,16 +13,16 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 
 ## 2. Project Features:
 - Multiple Player Game
-   - A two-player game in which each participant independently makes decisions.
+   - A two-player game in which each player independently makes decisions.
 
 - Saving and loading history capabilities
-   - Choose options (Y or y) to continue the game or (N or n) to quit the game after each chapter. If the player chooses to quit the game, the player can save their game progress and resume where they left off at a later time for convenience and continuity. The game progress is stored into two files, each file for each player. Everytime the game starts, the two files that store players’ data will be read by the program, if there is data inside the file, the data (places and action players choose) will print out and players can continue to the chapters or places they haven’t explored, otherwise if there is no data inside, players will start the game from the beginning.
+   - Choose options ('Y' or 'y') to continue the game or ('N' or 'n') to quit the game after each chapter. If the player chooses to quit the game, they can save their game progress and resume where they left off later for convenience and continuity. The game progress is stored in two files for each player. Every time the game starts, the two files that store players' data will be read by the program; if there is data inside the file, the data (places and actions players choose) will print out, and players can continue to the chapters or places they haven't explored, otherwise if there is no data inside, players will start the game from the beginning.
 
 - Diverse Chapters and Scenes Set in Several Locations
    - Explore a series of diverse chapters and scenes set in several locations. Play the game's interactive storyline as you delve into settings like a basketball court, library, cafe, cinema, and theme park. Each location has different scenes and options for players to shape their relationship with our main character and influence the outcome of the game.
 
-- Choice-based Gameplay
-   - Choose options (A, B, or C) that correspond to your character's behaviours, thoughts, and emotions when making decisions at crucial points in time.
+- Multiple Choice-based Gameplay
+   - Choose options (A, B, or C) that correspond to your character's behaviours, thoughts, and emotions when making decisions at crucial times.
 
 - Establishing relationships
    - Use action options to engage with Jackson in order to forge bonds and shape the dynamics of the interactions in the game.
@@ -31,15 +31,15 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
    - Use an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
      
 - Scability of Game 
-   - additional locations with scenes could be added into linked list to further enhance the game.
+   - The programmer can add or remove places without affecting the general structure of the game by managing scenes with the linked list. This is because the game can efficiently handle more chapters by their preferred locations and scenes. This enables scalability.
 
 
 ## 3. Project Specification:
 
 ### 1. Input  
 -From User:
-   - Players choose options (Options A, B, or C) in each scene of the game.
-   - Players choose to continue (Y or y) or quit (N or n) the game after each chapter.
+   - Players choose options (Options 'A', 'B', or 'C') in each scene of the game.
+   - Players choose to continue ('Y' or 'y') or quit ('N' or 'n') the game after each chapter.
 
 - From File:
    - Previously saved game data information which are the players’ options (Options A, B, or C) for each scene
@@ -58,12 +58,12 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 
 
 ### 4.Constraints
-- Players can only choose options A, B, or C in each scene.
-- Players can only choose to continue (Y or y) or quit (N or n) after each chapter.
+- Input validation where players can only choose options('A', 'B', or 'C') in each scene.
+- Input validation where players can only choose to continue ('Y' or 'y') or quit ('N' or 'n') after each chapter.
 
 ### 5. Assumptions
 - The game consists of 5 places or chapters, with each chapter having 2 scenes.
-- Each scene with only 3 options (A,B or C)
+- Each scene with only 3 options ('A', 'B', or 'C') 
 - Each option has a different scoring, which can be positive or negative.
 - The total score for each player is the sum of their scores after each chapter, considering the choices made in each scene.
 
@@ -72,37 +72,44 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 
 
 ## 4. Object-oriented Concept:
-The game consists of  9 classes:
-- FileInclusion (composition class Place) : read the two files that stores historical data, return number of places that the players has go 
+In the game, there are 9 classes that utilize object-oriented concepts:
 
-- Place: set the place name, scene1, scene2, action1 and action2 by the values that pass from class BasketballCourt, Library, Cafe, Cinema and ThemePark and pass these values to the HistoryList to append the list node.
+1. FileInclusion (Composition class of Place): This class is responsible for reading two files that store historical data. It returns the number of places that the players have visited.
 
-- PlaceList (inherited from class HistoryList and class Place) : used to link a place to the next place when the players want to continue the game.
+2. Place: This class sets the place name, scene1, scene2, action1, and action2 based on the values passed from the classes BasketballCourt, Library, Cafe, Cinema, and ThemePark. It passes these values to the HistoryList class to append a node to the linked list.
 
-- HistoryList : implement a linked-list, append a list node when the players go to one place and write the data that is stored in the linked-list into the players’ history file when the game is ended by the players.
+3. PlaceList (Inherited from class HistoryList and class Place): This class is derived from both the HistoryList and Place classes. It is used to link a place to next place together when players want to continue the game, maintaining the order of places visited.
 
-- BasketballCourt (composition of class Place) : print out the setting and scene in basketball court and get the players’ action
-   
-- Library (composition of class Place): print out the setting and scene in library and get the players’ action
+4. HistoryList: This class implements a linked list data structure. It allows for appending a list node when players visit a new place, dynamically growing the list. It also writes the data stored in the linked list into the players' history file.
 
-- Cafe (composition of class Place): print out the setting and scene in cafe and get the players’ action
+5. BasketballCourt (Composition of class Place): This class represents the basketball court location which is also Chapter 1 in the game. It prints out the setting and scenes in the basketball court and get the players' actions.
 
-- Cinema (composition of class Place): print out the setting and scene in cinema and get the players’ action
+6. Library (Composition of class Place): This class represents the library location which is also Chapter 2 in the game. It prints out the setting and scenes in the library and get the players' actions.
 
-- ThemePark (composition of class Place): print out the setting and scene in theme park and get the players’ action
+7. Cafe (Composition of class Place): This class represents the cafe location which is also Chapter 3 in the game. It prints out the setting and scenes in the cafe and get the players' actions.
+
+8. Cinema (Composition of Place): This class represents the cinema location which is also Chapter 4 in the game. It prints out the setting and scenes in the cinema and get the players' actions.
+
+9. ThemePark (Composition of class Place): This class represents the theme park location which is also Chapter 4 in the game. It prints out the setting and scenes in the theme park and captures the players' actions.
+
+These classes utilize concepts such as composition, inheritance, and encapsulation to organize and manage the game's functionality and data effectively.
 
 
 ## 5. Data structures(Linked-list):
 
-Linked list data structure is used in our game. A dynamic linked-list is implemented jin class ‘HistoryList’ so that it can grow and shrink during the program execution. Each node consists of five string data which are placeName, scene1, scene2, action1 and action2 and a pointer to the next node in the list. A default constructor initialise the head There are 4 member functions to manipulate the linked-list:
+In our game, we employ a linked list data structure through the implementation of a dynamic linked list in the "HistoryList" class. This implementation allows the linked list to expand and shrink during program execution. Each node in the linked list consists of five string data elements: placeName, scene1, scene2, action1, and action2. Additionally, each node contains a pointer to the next node in the list. The class includes a default constructor that initializes the head of the linked list.
 
-- ‘appendListNode1’: appends new node to the end of the list for player 1
+To manipulate the linked list, there are four member functions available:
 
-- ‘appendListNode2’: appends new node to the end of the list for player 2
+- 'appendListNode1': This function appends a new node to the end of the linked list specifically for player 1.
 
-- ‘writeListNode1’: open the file that stores historical data for player1 and write the contents of the linked list into the file
+- 'appendListNode2': Similarly, this function appends a new node to the end of the linked list specifically for player 2.
 
-- ‘writeListNode2’: open the file that stores historical data for player2 and write the contents of the linked list into the file
+- 'writeListNode1': This function opens the file that stores historical data for player 1 and writes the contents of the linked list into the file.
+
+- 'writeListNode2': Likewise, this function opens the file that stores historical data for player 2 and writes the contents of the linked list into the file.
+
+These member functions allow for the dynamic management of the linked list, enabling the addition of new nodes for each player and the ability to write the linked list's contents to respective files for historical data storage.
 
 
 ## 6. How the Game Play
