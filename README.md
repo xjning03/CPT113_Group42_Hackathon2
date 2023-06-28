@@ -1,4 +1,4 @@
-perkerp;l# CPT113_Group42_Hackathon2
+# CPT113_Group42_Hackathon2
 # Hackathon2
 ## 1. Project Description:
    
