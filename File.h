@@ -13,8 +13,7 @@ class FileInclusion{
 		string place, scene1, scene2, action1, action2;
 		int  marks ;
 		int count = 0;
-		HistoryList listFile1 , listFile2 ; // composition of class HistoryList
-		Place p1, p2;
+		Place p1, p2; // composition of class Place
 	public:
 		void setFileName(string n){
 			fileName = n ;
