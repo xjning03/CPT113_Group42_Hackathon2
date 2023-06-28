@@ -29,6 +29,9 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 
 - Friendly User Interface
    - Use an easy-to-use user interface to move through scenes, read descriptions, and make decisions.
+     
+- Scability of Game 
+   - additional locations with scenes could be added in the future to further enhance the game.
 
 
 ## 3. Project Specification:
