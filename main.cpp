@@ -27,7 +27,7 @@ int main(){
 		switch(level){
 			case 1: list.executeLibrary();	// second place
 			break;
-			case 2: list.executeCafe();		// third place
+			case 2: list.executeCafe();	// third place
 			break;
 			case 3: list.executeCinema();	// fourth place
 			break;
