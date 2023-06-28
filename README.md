@@ -37,10 +37,9 @@ Immerse yourself in the interactive storyline, where your decisions throughout t
 ## 3. Project Specification:
 
 ### 1. Input  
--From User:
+- From User:
    - Players choose options (Options 'A', 'B', or 'C') in each scene of the game.
    - Players choose to continue ('Y' or 'y') or quit ('N' or 'n') the game after each chapter.
-
 - From File:
    - Previously saved game data information which are the players’ options (Options A, B, or C) for each scene
    - Previously saved game data information which are the completed chapters for continuity.
