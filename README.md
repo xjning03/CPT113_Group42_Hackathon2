@@ -117,7 +117,7 @@ These member functions allow for the dynamic management of the linked list, enab
 - The absence of a history file is indicated by the message "The file is not open properly."
 - The instructions to play this game is clearly displayed.
      
-![Hackathon1](https://github.com/xjning03/CPT113_Group42_Hackathon2/Hackathon1.png)
+![Hackathon1](Hackathon1.png)
 
 
 
