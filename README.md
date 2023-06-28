@@ -2,13 +2,11 @@ perkerp;l# CPT113_Group42_Hackathon2
 # Hackathon2
 ## 1. Project Description:
    
-"Unexpected Encounters" is an interactive multiplayer game about relationships and making decisions. Two players are involved in various settings in which they encounter the main character, Jackson.
+Our Hackathon 2 introduces "Unexpected Encounters," an interactive multiplayer game centered around decision-making. This game involves two players who engage in various settings where they encounter the central character, Jackson.
 
-In the game, players can select from options (Option A, B or C), each with a score that influences their relationship with Jackson. Players actively create the storyline by navigating their character's journey and changing their relationship with Jackson. Players are encouraged to invest their emotions and thoughts in the game.
+During gameplay, players can select from multiple options (Option A, B, or C), each with a score that directly impacts their relationship with Jackson. By actively navigating their character's journey and altering their relationship with Jackson, players actively contribute to developing the game's storyline. There are numerous chapters and scenes that unfold in various locations. From the lively basketball court to the tranquil library, the cozy cafe to the enchanting cinema, and the thrilling theme park, each unique setting offers an immersive and captivating experience.
 
-Embark on this exciting journey to discover a multitude of chapters and scenes set in various locations. From the bustling basketball court to the serene library, the cosy cafe to the enchanting cinema, and the thrilling theme park, each unique setting offers a new and engaging experience. 
-
-Immerse yourself in the interactive storyline, where your decisions throughout the game will turn into multiple possible outcomes. Every decision shapes the narrative and influences your character's relationships and ultimate destiny. This dynamic and branching storyline ensures high replay value, inviting you to explore different paths and uncover different results of the game.
+This game allows players to immerse themselves in the interactive storyline, where their decisions throughout the game yield multiple possible outcomes. Each decision significantly shapes the narrative and influences the character's relationships and ultimate fate. The game's dynamic and branching storyline design ensures substantial replay value, enticing players to explore different possiblities and uncover mixed results within the game.
 
 
 ## 2. Project Features:
