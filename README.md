@@ -31,7 +31,7 @@ This game allows players to immerse themselves in the interactive storyline, whe
    - Players can replay the game from the beginning by reopening the program after each complete game. The history files will be cleared after each complete game, allowing them to start again with a new game session.
      
 - Scability of Game 
-   - The programmer can add or remove chapters without affecting the general structure of the game by managing scenes with the linked list. This is because the game can efficiently handle more chapters by their preferred locations and scenes. This enables scalability.
+   - The programmer can add or remove chapters without affecting the general structure of the game by managing scenes with the linked list. This is because the game can efficiently handle more chapters by their preferred locations and scenes. This enables scalability of the game.
 
 
 ## 3. Project Specification:
