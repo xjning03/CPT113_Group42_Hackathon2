@@ -1,7 +1,7 @@
 # Group42_Hackathon2_UnexpectedEncounters[
 1. Screenshot 1
-   *First time user.
-   *"The file is not open properly" indicate that there is no history file.
+-First time user.
+-"The file is not open properly" indicate that there is no history file.
 ![Hackathon1](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/d549d385-9d8a-44ec-888b-060e68844b67)
 
 3. Screenshot 2
