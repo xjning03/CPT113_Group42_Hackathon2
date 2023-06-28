@@ -22,7 +22,7 @@
 ![Screenshot 2023-06-28 150325](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/8c5a2d80-f357-4614-80ea-7ca441016127)
 
 5. Screenshot 5
-   -The storyline and scores for each player is saved in separate text files: "History1.txt" for player 1 and "History2.txt" for player 2.
+   - The storyline and scores for each player is saved in separate text files: "History1.txt" for player 1 and "History2.txt" for player 2.
 ![Hackathon5](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/d97098c1-bebf-4645-b87e-0d76ca7b173a)
 
 6. Screenshot 6
@@ -32,8 +32,8 @@
 ![Hackathon6](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/9d84c1ca-f86b-48f0-aff4-66e22eb7b1d7)
 
 7. Screenshot 7
-  - Proceed to Chapter 2.
-  - Implement input validation where players are required to reenter their option if it is not within the allowed choices of (A, B, or C).
+   - Proceed to Chapter 2.
+   - Implement input validation where players are required to reenter their option if it is not within the allowed choices of (A, B, or C).
 ![Hackathon7](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/c51c646d-275a-4f91-9342-cc600005902d)
 
 8. Screenshot 8
