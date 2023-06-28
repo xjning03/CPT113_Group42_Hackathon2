@@ -75,7 +75,7 @@ In the game, there are 9 classes that utilize object-oriented concepts:
 
 1. FileInclusion (Composition class of Place): This class is responsible for reading two files that store historical data. It returns the number of places that the players have visited.
 
-2. Place: This class sets the place name, scene1, scene2, action1, and action2 based on the values passed from the classes BasketballCourt, Library, Cafe, Cinema, and ThemePark. It passes these values to the HistoryList class to append a node to the linked list.
+2. Place: This class sets the place name, scene1, scene2, action1, and action2 based on the values passed from the classes BasketballCourt, Library, Cafe, Cinema, and ThemePark.It passes these values to the HistoryList class to append a node to the linked list.The calculation of total marks for player 1 and player 2 are performed in this class as well.
 
 3. PlaceList (Inherited from class HistoryList and class Place): This class is derived from both the HistoryList and Place classes. It is used to link a place to next place together when players want to continue the game, maintaining the order of places visited.
 
@@ -89,7 +89,7 @@ In the game, there are 9 classes that utilize object-oriented concepts:
 
 8. Cinema (Composition of Place): This class represents the cinema location which is also Chapter 4 in the game. It prints out the setting and scenes in the cinema and get the players' actions.
 
-9. ThemePark (Composition of class Place): This class represents the theme park location which is also Chapter 4 in the game. It prints out the setting and scenes in the theme park and captures the players' actions.
+9. ThemePark (Composition of class Place): This class represents the theme park location which is also Chapter 5 in the game. It prints out the setting and scenes in the theme park and captures the players' actions.
 
 These classes utilize concepts such as composition, inheritance, and encapsulation to organize and manage the game's functionality and data effectively.
 
