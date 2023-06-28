@@ -51,7 +51,7 @@ int main(){
     	cout << "		       **     **        " << endl;
     	cout << "		         *****          " << endl;
     	cout << endl;
-    	cout << "Before game starts, let's look through the instructions...'";
+    	cout << "Before game starts, let's look through the instructions...";
 		cout << endl<< "Game Instructiion\n";
 		cout << "1. The game is designed for two players.\n"<<
 				"2. Players take turns choosing their actions.\n"<<
