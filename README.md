@@ -116,12 +116,14 @@ These member functions allow for the dynamic management of the linked list, enab
 - First time user.
 - The absence of a history file is indicated by the message "The file is not open properly."
      
-![Hackathon1](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/d549d385-9d8a-44ec-888b-060e68844b67)
+![Hackathon1](https://github.com/xjning03/CPT113_Group42_Hackathon2/assets/126644899/ece1c494-1d64-4550-9d88-c2f96311412a)
+
 
 2. Screenshot 2
 - After hitting the enter key, the story of Chapter 1 was unveiled.
      
-![Hackathon2](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/179b1e46-06c7-45d5-98e5-220fc87f6150)
+![Hackathon2](https://github.com/xjning03/CPT113_Group42_Hackathon2/assets/126644899/afc31c79-1d47-4b86-82ec-537bc34c8e23)
+
 
 3. Screenshot 3
 - Each chapter consists of two scenes.
@@ -135,7 +137,7 @@ These member functions allow for the dynamic management of the linked list, enab
 - The score of each player is computed and displayed on the terminal, taking into account their chosen options.
 - The program terminates after displaying the scores.
      
-![Screenshot 2023-06-28 150325](https://github.com/xjning03/Group42_Hackathon2_UnexpectedEncounters/assets/126644899/8c5a2d80-f357-4614-80ea-7ca441016127)
+!![Hackathon4](https://github.com/xjning03/CPT113_Group42_Hackathon2/assets/126644899/aecd4631-1191-4f88-b986-ae6574f8af47)
 
 5. Screenshot 5
 - The storyline and scores for each player is saved in separate text files: "History1.txt" for player 1 and "History2.txt" for player 2.
