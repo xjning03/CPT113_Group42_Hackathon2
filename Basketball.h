@@ -312,11 +312,11 @@ class Cafe{
 				}
 
 				if(action1 == 'B'){	// for player 1
-					p1.setAction1(" Reprimand him for coming early");
+					p1.setAction1("Reprimand him for coming early");
 					p1.addMark1(-10);
 				}
 				if(action2 == 'B'){	// for player 2
-					p2.setAction1(" Reprimand him for coming early");
+					p2.setAction1("Reprimand him for coming early");
 					p2.addMark2(-10);
 				}
 
