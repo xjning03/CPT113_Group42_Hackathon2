@@ -39,51 +39,51 @@ class PlaceList:public HistoryList , public Place {
 		void executeCourt(){	// this is the first place
 			courtPtr->executebasketball(); // execute the class Basketball Court
 			if(nextPlace()){// want to go next place
-			fstream file;
+				fstream file; // store and append player1 scoring into file
 				file.open("History1.txt" , ios::app);
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
 
-				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 				cout<<endl;
 				executeLibrary();
 			}// execute the class Library
 			else{// player want to stop the game
-				fstream file;
+				fstream file; // store and append player1 scoring into file
 				file.open("History1.txt" , ios::app);
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
-				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 			}
 		}
 
 		void executeLibrary(){
 			libraryPtr->executelibrary();
 			if(nextPlace()){// want to go next place
-			fstream file;
-				file.open("History1.txt" , ios::app);
+				fstream file; // store and append player1 scoring into file
+				file.open("History1.txt" , ios::app); 
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
 
-			  	cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+			  	cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 				cout<<endl;
 				executeCafe();	// execute the class cafe
 			}
@@ -97,95 +97,96 @@ class PlaceList:public HistoryList , public Place {
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close(); 	// store player2 data into a file
-				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 			}
 		}
 		void executeCafe(){
 			cafePtr->executecafe();
 			if(nextPlace()){// want to go next place
-			fstream file;
+				fstream file; // store and append player1 scoring into file
 				file.open("History1.txt" , ios::app);
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
 
-			  	cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+			  	cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 				cout<<endl;
 				executeCinema();	// execute the class cinema
 			}
 			else{	// player want to stop the game
-				fstream file;
+				fstream file; // store and append player1 scoring into file
 				file.open("History1.txt" , ios::app);
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
-				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 			}
 		}
 		void executeCinema(){
 			cinemaPtr->executecinema();
 			if(nextPlace()){// want to go next place
-				fstream file;
+				fstream file; // store and append player1 scoring into file
 				file.open("History1.txt" , ios::app);
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
 
-			  	cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+			  	cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 				cout<<endl;
 				executePark();	// execute the class Park
 			}
 			else{
-				fstream file;
+				fstream file; // store and append player1 scoring into file
 				file.open("History1.txt" , ios::app);
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player1 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
 				
-				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl;
-				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl;
+				cout<<"Relationship between Player 1 and Jackson "<<getTotalMark1()<<"%"<<endl; // display player 1 scoring
+				cout<<"Relationship between Player 2 and Jackson "<<getTotalMark2()<<"%"<<endl; // display player 2 scoring
 			}
 		}
 		void executePark(){	// this is the last place
 			parkPtr->executepark();
 			getTotalMark1();
 			getTotalMark2 ();
-			fstream file;
-				file.open("History1.txt" , ios::app);
+				fstream file; // store and append player1 scoring into file
+				file.open("History1.txt" , ios::app); 
 				file << getTotalMark1();
 				file.close();
 
-				fstream file2;// store player2 data into a file
+				fstream file2; // store and append player2 scoring into file
 				file2.open("History2.txt" , ios::app);
 				file2 << getTotalMark2();
 				file2.close();
+			// comparison between player1 scoring and player2 scoring
 			cout << "Player 1 has " << getTotalMark1()<<"%"<< " and " << "Player 2 has " << getTotalMark2() <<"%"<< endl;
 			if (getTotalMark1() > getTotalMark2()){
 					cout << "Player 1 has a stronger relationship with Jackson. " << endl;
 			}
-      else if (getTotalMark1() == getTotalMark2()){
-           cout << "Player 1 and Player 2 has equally strong relationship with Jackson." << endl;
-      }
+      			else if (getTotalMark1() == getTotalMark2()){
+          				 cout << "Player 1 and Player 2 has equally strong relationship with Jackson." << endl;
+     			 }
 			else {
 				cout <<" Player 2 has a stronger relationship with Jackson." << endl;
 			}
